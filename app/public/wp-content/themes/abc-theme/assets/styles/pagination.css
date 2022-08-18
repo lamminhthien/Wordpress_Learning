@@ -1,0 +1,30 @@
+.pagination-wrapper .nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px 40px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.pagination-wrapper .prev.page-numbers {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #9eff28;
+}
+.pagination-wrapper a.page-numbers, .current {
+  display: block;
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #9eff28;
+}
+.pagination-wrapper .current {
+  background-color: #21d54b;
+}
+.pagination-wrapper .next.page-numbers {
+  border: 1px solid black;
+  padding: 5px;
+  border-radius: 4px;
+  background-color: #9eff28;
+}

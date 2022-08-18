@@ -1,0 +1,14 @@
+.footer-menu {
+  background-color: aquamarine;
+}
+.footer-menu ul {
+  display: flex;
+  gap: 16px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0 20px;
+}
+.footer-menu ul li {
+  /* padding: 20px; */
+  padding: 20px;
+}

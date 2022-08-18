@@ -11,8 +11,7 @@
  * @since ABC Theme 1.0
  */
 ?>
-<?php wp_nav_menu(array('theme_location' => 'footer_menu', 'container_class' => 'new_menu_class')) ?>;
-<?php wp_footer(); ?>
+<?php wp_nav_menu(array('theme_location' => 'footer_menu', 'container_class' => 'footer_menu_class')) ?>;
 <?php echo get_template_directory_uri(); ?>
 </body>
 </html>

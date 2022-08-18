@@ -71,8 +71,12 @@ function loadAssetsFolder($url)
   <link href="<?php loadAssetsFolder('styles/index.css'); ?>" rel="stylesheet" />
   <?php wp_head(); ?>
 </head>
+
 <body>
 
-<?php get_template_part('template-parts/navbar'); ?>
+  <div class="container">
+    <div class="header-menu"><?php get_template_part('template-parts/navbar'); ?></div>
+  </div>
 </body>
+
 </html>

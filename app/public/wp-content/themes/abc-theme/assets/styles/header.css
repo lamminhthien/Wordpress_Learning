@@ -1,0 +1,27 @@
+.header-menu {
+  /* background-color: rgba(15, 250, 238, 0.731); */
+}
+.header-menu .menu {
+  background-color: #3CC7F4;
+  font-size: 1rem;
+  padding: 30px;
+  font-weight: 600;
+  height: 100%;
+  line-height: 1.25rem;
+  text-transform: uppercase;
+  color: white ;
+}
+.header-menu .menu ul {
+  display: flex;
+  gap: 16px;
+  justify-content: end;
+
+
+}
+
+.header-menu .menu a {
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  text-decoration-line: none;
+  align-items: center;
+}

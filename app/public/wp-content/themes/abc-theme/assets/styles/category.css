@@ -1,0 +1,30 @@
+.category-section {
+  background-color: antiquewhite;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.5rem;
+}
+.category-section .title h3 {
+  text-align: center;
+  padding: 10px 20px;
+  font-size: 24px;
+  font-weight: 500;
+}
+.category-section .view-post {
+  text-align: center;
+  display: block;
+  background-color: #ee1515;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-bottom: 0.5rem;
+  border-radius: 0.5rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  padding-top: 0.625rem;
+  padding-bottom: 0.625rem;
+  font-weight: 500;
+  color: white;
+}
+.category-section .view-post a {
+  
+}
