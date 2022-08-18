@@ -16,7 +16,7 @@ $prev_text = sprintf(
 	 * Translators: This text contains HTML to allow the text to be shorter on small screens.
 	 * The text inside the span with the class nav-short will be hidden on small screens.
 	 */
-	__( 'Newer <span class="nav-short">Posts</span>', 'twentytwenty' )
+	__( 'Bai viet moi <span class="nav-short">Posts</span>', 'twentytwenty' )
 );
 $next_text = sprintf(
 	'<span class="nav-next-text">%s</span> %s',

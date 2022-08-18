@@ -1,0 +1,46 @@
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./src/Partials/contact-banner/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+.contact-banner {
+    height: 382px;
+    background-image: url('../images/contact-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+}
+@media (min-width: 768px) {
+    .contact-banner {
+        height: 670px
+    }
+}
+@media (min-width: 1024px) {
+    .contact-banner {
+        height: 362px
+    }
+}
+  .contact-banner .title {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 45px
+}
+  @media (min-width: 1024px) {
+    .contact-banner .title {
+        font-size: 74px;
+        line-height: 75px
+    }
+}
+
+/*!*************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./src/Partials/contact-form/style.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************/
+.contact-form .input-icon {
+    position: absolute;
+    padding-bottom: 4px;
+    padding-left: 20px;
+    padding-top: 1.25rem
+}
+
+/*!*****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./src/pages/contact/style.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************/
+

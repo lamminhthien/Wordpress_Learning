@@ -1,149 +1,78 @@
 <?php
-/**
- * Header file for the CD Theme ABC_WP default theme.
- *
- *
- * @package ABC_WP
- * @subpackage CDE_Theme
- * @since CD Theme 1.0
- */
+function loadAssetsFolder($url)
+{
+  echo get_template_directory_uri() . "/assets/" . $url;
+}
 
-?><!DOCTYPE html>
+?>
+<!DOCTYPE html>
+<html lang="en">
 
-<html class="no-js" <?php language_attributes(); ?>>
+<head>
+  <meta charset="UTF-8" />
+  <title>ABC</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="fragment" content="!" />
+  <meta name="HandheldFriendly" content="true" />
+  <meta name="MobileOptimized" content="320" />
+  <meta http-equiv="cleartype" content="on" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, shrink-to-fit=no" />
+  <meta name="robots" content="index, follow" />
+  <meta name="description" content="ABC Landing page" />
+  <meta name="keywords" content="abc website, landing page" />
+  <meta name="msapplication-tap-highlight" content="no" />
+  <!-- Social: Facebook / Open Graph -->
+  <meta property="og:title" content="ABC" />
+  <meta property="og:image" content="" />
+  <meta property="og:image:width" content="600" />
+  <meta property="og:image:height" content="315" />
+  <meta property="og:description" content="ABC Landing page" />
+  <meta property="og:url" content="" />
+  <meta property="og:type" content="website" />
+  <!-- Social: Twitter -->
+  <meta name="twitter:title" content="ABC" />
+  <meta name="twitter:description" content="ABC Landing page" />
+  <meta name="twitter:image:src" content="" />
+  <!-- Social: Google+ / Schema.org  -->
+  <meta itemprop="name" content="ABC" />
+  <meta itemprop="description" content="ABC Landing page" />
+  <meta itemprop="image" content="" />
+  <link rel="shortcut icon" href="/favicons/favicon.ico" />
+  <!-- No Google Translate toolbar -->
+  <meta name="google" content="notranslate" />
+  <!-- Disable tap highlight on IE-->
+  <meta name="msapplication-tap-highlight" content="no" />
+  <meta name="msapplication-TileColor" content="#da532c" />
+  <!-- Web Application Manifest-->
 
-	<head>
+  <!-- Add to homescreen for Chrome on Android-->
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="application-name" content="Infinity HTML" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/public/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/public/favicon-16x16.png" />
+  <!-- Add to homescreen for Safari on iOS-->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  <meta name="apple-mobile-web-app-title" content="Infinity HTML" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/public/apple-touch-icon.png" />
+  <link rel="mask-icon" href="/public/safari-pinned-tab.svg" color="#5bbad5" />
+  <!-- Color the status bar on mobile devices-->
+  <meta name="theme-color" content="#eb272f" />
+  <!-- Prefetch DNS for external assets -->
+  <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+  <link rel="dns-prefetch" href="//www.google-analytics.com" />
 
-		<meta charset="<?php bloginfo( 'charset' ); ?>">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="<?php loadAssetsFolder('styles/tailwind.css'); ?>" rel="stylesheet" />
+  <link href="<?php loadAssetsFolder('styles/vendor.css'); ?>" rel="stylesheet" />
+  <link href="<?php loadAssetsFolder('styles/common.css'); ?>" rel="stylesheet" />
+  <link href="<?php loadAssetsFolder('styles/index.css'); ?>" rel="stylesheet" />
+  <?php wp_head(); ?>
+</head>
+<body>
 
-		<link rel="profile" href="https://gmpg.org/xfn/11">
-
-		<?php wp_head(); ?>
-
-	</head>
-
-	<body <?php body_class(); ?>>
-	<main class="flex-grow-1 container">
-      <div class="row">
-        <div class="col-sm-3">
-          <div class="card my-4">
-            <h5 class="card-header">Search</h5>
-            <div class="card-body">
-              <div class="input-group">
-                <input class="form-control" placeholder="Search for...">
-                <button class="input-group-text" type="button">Go!</button>
-              </div>
-            </div>
-          </div>
-          <div class="card my-4">
-            <h5 class="card-header">Categories</h5>
-            <div class="card-body">
-              <div class="row">
-                <div class="col-lg-6">
-                  <ul class="list-unstyled mb-0">
-                    <li><a href="#">Web Design</a></li>
-                    <li><a href="#">HTML</a></li>
-                    <li><a href="#">Freebies</a></li>
-                  </ul>
-                </div>
-                <div class="col-lg-6">
-                  <ul class="list-unstyled mb-0">
-                    <li><a href="#">JavaScript</a></li>
-                    <li><a href="#">CSS</a></li>
-                    <li><a href="#">Tutorials</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card my-4">
-            <h5 class="card-header">Tags</h5>
-            <div class="card-body">
-              You can put anything you want inside of these side widgets. They
-              are easy to use, and feature the new Bootstrap 4 card containers!
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-9">
-          <div class="pg-blog-list">
-            <h1 class="my-4">Blog List</h1>
-            <div class="row">
-              <div class="col-3">
-                <a href="detail.html"><img class="img-fluid rounded-3 mb-3" src="images/river.jpg" alt="Title"></a>
-              </div>
-              <div class="col-9">
-                <h3>Ant-Man</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Laudantium veniam exercitationem expedita laborum at
-                  voluptate. Labore, voluptates totam at aut nemo deserunt.
-                </p>
-                <a class="btn btn-primary" href="detail.html">View Project</a>
-              </div>
-            </div>
-            <hr>
-            <div class="row">
-              <div class="col-3">
-                <a href="detail.html"><img class="img-fluid rounded-3 mb-3" src="images/road.jpg" alt="Title"></a>
-              </div>
-              <div class="col-9">
-                <h3>Ant-Man and the Wasp</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Laudantium veniam exercitationem expedita laborum at
-                  voluptate. Labore, voluptates totam at aut nemo deserunt.
-                </p>
-                <a class="btn btn-primary" href="detail.html">View Project</a>
-              </div>
-            </div>
-            <hr>
-            <div class="row">
-              <div class="col-3">
-                <a href="detail.html"><img class="img-fluid rounded-3 mb-3" src="images/snow.jpg" alt="Title"></a>
-              </div>
-              <div class="col-9">
-                <h3>The Avengers</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Laudantium veniam exercitationem expedita laborum at
-                  voluptate. Labore, voluptates totam at aut nemo deserunt.
-                </p>
-                <a class="btn btn-primary" href="detail.html">View Project</a>
-              </div>
-            </div>
-            <hr>
-            <div class="row">
-              <div class="col-3">
-                <a href="detail.html"><img class="img-fluid rounded-3 mb-3" src="images/sunset.jpg" alt="Title"></a>
-              </div>
-              <div class="col-9">
-                <h3>Avengers Age Of Ultron</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Laudantium veniam exercitationem expedita laborum at
-                  voluptate. Labore, voluptates totam at aut nemo deserunt.
-                </p>
-                <a class="btn btn-primary" href="detail.html">View Project</a>
-              </div>
-            </div>
-            <hr>
-            <div class="row">
-              <div class="col-3">
-                <a href="detail.html"><img class="img-fluid rounded-3 mb-3" src="images/yard.jpg" alt="Title"></a>
-              </div>
-              <div class="col-9">
-                <h3>Avengers Age Of Ultron</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Laudantium veniam exercitationem expedita laborum at
-                  voluptate. Labore, voluptates totam at aut nemo deserunt.
-                </p>
-                <a class="btn btn-primary" href="detail.html">View Project</a>
-              </div>
-            </div>
-            <hr>
-          </div>
-        </div>
-      </div>
-    </main>
+<?php get_template_part('template-parts/navbar'); ?>
+</body>
+</html>

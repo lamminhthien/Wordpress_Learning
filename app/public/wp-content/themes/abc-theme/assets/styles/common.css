@@ -1,1 +1,94 @@
-body.layout-blog{font-family:Roboto;scroll-behavior:smooth}
+/*!*****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./src/Partials/menu/style.scss ***!
+  \*****************************************************************************************************************************************************************************************************************************************************/
+.menu nav .active {
+  position: relative; }
+
+.menu nav .active::after {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 0.25rem;
+  width: 100%;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-content: '';
+  content: var(--tw-content); }
+
+.menu-mobile {
+  position: absolute;
+  z-index: 10;
+  min-height: calc(100vh - 116px);
+  width: 100%;
+  --tw-bg-opacity: 1;
+  background-color: rgb(60 199 244 / var(--tw-bg-opacity));
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  --tw-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow); }
+
+@media (min-width: 1024px) {
+
+  .menu-mobile {
+    display: none; } }
+
+.menu-mobile {
+  box-shadow: 0px 0px 4px 2px rgba(115, 115, 115, 0.1); }
+  .menu-mobile .menu-item li {
+  padding-top: 17px;
+  padding-bottom: 17px; }
+  .menu-mobile .menu-item li:first-child {
+  padding-bottom: 17px; }
+  .menu-mobile .search-icon {
+  position: absolute;
+  padding: 12px; }
+  .menu-mobile .search-input {
+  height: 42px;
+  width: 100%;
+  border-style: none;
+  --tw-bg-opacity: 1;
+  background-color: rgb(53 172 210 / var(--tw-bg-opacity));
+  padding-left: 40px; }
+  .menu-mobile .search-input::-moz-placeholder {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px; }
+  .menu-mobile .search-input:-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px; }
+  .menu-mobile .search-input::placeholder {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px; }
+  .menu-mobile .languages a {
+  position: relative; }
+  .menu-mobile .languages a::after {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  height: 0.25rem;
+  width: 100%;
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  --tw-content: '';
+  content: var(--tw-content); }
+
+.hamburger.active .icon-1 {
+  display: none; }
+
+.hamburger.active .icon-2 {
+  display: block; }
+
+.hamburger .icon-2 {
+  display: none; }
+
+/*!*******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./src/layouts/default/style.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************/
+body.layout-default {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto; }
+
