@@ -1,0 +1,131 @@
+[30-Jul-2022 02:49:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twentytwenty_the_theme_svg() in /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/header.php:51
+Stack trace:
+#0 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/template.php(770): require_once()
+#1 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/template.php(716): load_template('/home/lamminhth...', true, Array)
+#2 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/index.php(17): get_header()
+#4 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/template-loader.php(106): include('/home/lamminhth...')
+#5 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-blog-header.php(19): require_once('/home/lamminhth...')
+#6 /home/lamminhthien/Code/lamminhthien.com/app/public/index.php(17): require('/home/lamminhth...')
+#7 {main}
+  thrown in /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/header.php on line 51
+[30-Jul-2022 02:51:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/template-parts/entry-header.php:70
+Stack trace:
+#0 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/template.php(772): require()
+#1 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/template.php(716): load_template('/home/lamminhth...', false, Array)
+#2 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/template-parts/content.php(20): get_template_part('template-parts/...')
+#4 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/template.php(772): require('/home/lamminhth...')
+#5 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/template.php(716): load_template('/home/lamminhth...', false, Array)
+#6 /home/lamminhthien/Code/lamminhthien.com/a in /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/template-parts/entry-header.php on line 70
+[30-Jul-2022 02:57:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/template-parts/entry-header.php:70
+Stack trace:
+#0 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/template.php(772): require()
+#1 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/template.php(716): load_template('/home/lamminhth...', false, Array)
+#2 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/template-parts/content.php(20): get_template_part('template-parts/...')
+#4 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/template.php(772): require('/home/lamminhth...')
+#5 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/template.php(716): load_template('/home/lamminhth...', false, Array)
+#6 /home/lamminhthien/Code/lamminhthien.com/a in /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/template-parts/entry-header.php on line 70
+[30-Jul-2022 03:01:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twentytwenty_the_post_meta() in /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/template-parts/entry-header.php:70
+Stack trace:
+#0 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/template.php(772): require()
+#1 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/template.php(716): load_template('/home/lamminhth...', false, Array)
+#2 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/general-template.php(204): locate_template(Array, true, false, Array)
+#3 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/template-parts/content.php(20): get_template_part('template-parts/...')
+#4 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/template.php(772): require('/home/lamminhth...')
+#5 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/template.php(716): load_template('/home/lamminhth...', false, Array)
+#6 /home/lamminhthien/Code/lamminhthien.com/a in /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/template-parts/entry-header.php on line 70
+[30-Jul-2022 03:36:06 UTC] PHP Warning:  require(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/functions.php on line 11
+[30-Jul-2022 03:36:06 UTC] PHP Stack trace:
+[30-Jul-2022 03:36:06 UTC] PHP   1. {main}() /home/lamminhthien/Code/lamminhthien.com/app/public/index.php:0
+[30-Jul-2022 03:36:06 UTC] PHP   2. require() /home/lamminhthien/Code/lamminhthien.com/app/public/index.php:17
+[30-Jul-2022 03:36:06 UTC] PHP   3. require_once() /home/lamminhthien/Code/lamminhthien.com/app/public/wp-blog-header.php:13
+[30-Jul-2022 03:36:06 UTC] PHP   4. require_once() /home/lamminhthien/Code/lamminhthien.com/app/public/wp-load.php:50
+[30-Jul-2022 03:36:06 UTC] PHP   5. require_once() /home/lamminhthien/Code/lamminhthien.com/app/public/wp-config.php:91
+[30-Jul-2022 03:36:06 UTC] PHP   6. include() /home/lamminhthien/Code/lamminhthien.com/app/public/wp-settings.php:566
+[30-Jul-2022 03:36:06 UTC] PHP Warning:  require(http://lamminhthien.com/wp-content/themes/abc-theme/includes/custom-assets.php): failed to open stream: no suitable wrapper could be found in /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/functions.php on line 11
+[30-Jul-2022 03:36:06 UTC] PHP Stack trace:
+[30-Jul-2022 03:36:06 UTC] PHP   1. {main}() /home/lamminhthien/Code/lamminhthien.com/app/public/index.php:0
+[30-Jul-2022 03:36:06 UTC] PHP   2. require() /home/lamminhthien/Code/lamminhthien.com/app/public/index.php:17
+[30-Jul-2022 03:36:06 UTC] PHP   3. require_once() /home/lamminhthien/Code/lamminhthien.com/app/public/wp-blog-header.php:13
+[30-Jul-2022 03:36:06 UTC] PHP   4. require_once() /home/lamminhthien/Code/lamminhthien.com/app/public/wp-load.php:50
+[30-Jul-2022 03:36:06 UTC] PHP   5. require_once() /home/lamminhthien/Code/lamminhthien.com/app/public/wp-config.php:91
+[30-Jul-2022 03:36:06 UTC] PHP   6. include() /home/lamminhthien/Code/lamminhthien.com/app/public/wp-settings.php:566
+[30-Jul-2022 03:36:06 UTC] PHP Fatal error:  require(): Failed opening required 'http://lamminhthien.com/wp-content/themes/abc-theme/includes/custom-assets.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/functions.php on line 11
+[30-Jul-2022 03:36:06 UTC] PHP Stack trace:
+[30-Jul-2022 03:36:06 UTC] PHP   1. {main}() /home/lamminhthien/Code/lamminhthien.com/app/public/index.php:0
+[30-Jul-2022 03:36:06 UTC] PHP   2. require() /home/lamminhthien/Code/lamminhthien.com/app/public/index.php:17
+[30-Jul-2022 03:36:06 UTC] PHP   3. require_once() /home/lamminhthien/Code/lamminhthien.com/app/public/wp-blog-header.php:13
+[30-Jul-2022 03:36:06 UTC] PHP   4. require_once() /home/lamminhthien/Code/lamminhthien.com/app/public/wp-load.php:50
+[30-Jul-2022 03:36:06 UTC] PHP   5. require_once() /home/lamminhthien/Code/lamminhthien.com/app/public/wp-config.php:91
+[30-Jul-2022 03:36:06 UTC] PHP   6. include() /home/lamminhthien/Code/lamminhthien.com/app/public/wp-settings.php:566
+[30-Jul-2022 03:36:06 UTC] PHP Warning:  require(): http:// wrapper is disabled in the server configuration by allow_url_include=0 in /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/functions.php on line 11
+[30-Jul-2022 03:36:06 UTC] PHP Stack trace:
+[30-Jul-2022 03:36:06 UTC] PHP   1. {main}() /home/lamminhthien/Code/lamminhthien.com/app/public/index.php:0
+[30-Jul-2022 03:36:06 UTC] PHP   2. require() /home/lamminhthien/Code/lamminhthien.com/app/public/index.php:17
+[30-Jul-2022 03:36:06 UTC] PHP   3. require_once() /home/lamminhthien/Code/lamminhthien.com/app/public/wp-blog-header.php:13
+[30-Jul-2022 03:36:06 UTC] PHP   4. require_once() /home/lamminhthien/Code/lamminhthien.com/app/public/wp-load.php:50
+[30-Jul-2022 03:36:06 UTC] PHP   5. require_once() /home/lamminhthien/Code/lamminhthien.com/app/public/wp-config.php:91
+[30-Jul-2022 03:36:06 UTC] PHP   6. include() /home/lamminhthien/Code/lamminhthien.com/app/public/wp-settings.php:566
+[30-Jul-2022 03:36:06 UTC] PHP Warning:  require(http://lamminhthien.com/wp-content/themes/abc-theme/includes/custom-assets.php): failed to open stream: no suitable wrapper could be found in /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/functions.php on line 11
+[30-Jul-2022 03:36:06 UTC] PHP Stack trace:
+[30-Jul-2022 03:36:06 UTC] PHP   1. {main}() /home/lamminhthien/Code/lamminhthien.com/app/public/index.php:0
+[30-Jul-2022 03:36:06 UTC] PHP   2. require() /home/lamminhthien/Code/lamminhthien.com/app/public/index.php:17
+[30-Jul-2022 03:36:06 UTC] PHP   3. require_once() /home/lamminhthien/Code/lamminhthien.com/app/public/wp-blog-header.php:13
+[30-Jul-2022 03:36:06 UTC] PHP   4. require_once() /home/lamminhthien/Code/lamminhthien.com/app/public/wp-load.php:50
+[30-Jul-2022 03:36:06 UTC] PHP   5. require_once() /home/lamminhthien/Code/lamminhthien.com/app/public/wp-config.php:91
+[30-Jul-2022 03:36:06 UTC] PHP   6. include() /home/lamminhthien/Code/lamminhthien.com/app/public/wp-settings.php:566
+[30-Jul-2022 03:36:06 UTC] PHP Fatal error:  require(): Failed opening required 'http://lamminhthien.com/wp-content/themes/abc-theme/includes/custom-assets.php' (include_path='.:/usr/share/php:/www/wp-content/pear') in /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/functions.php on line 11
+[30-Jul-2022 03:36:06 UTC] PHP Stack trace:
+[30-Jul-2022 03:36:06 UTC] PHP   1. {main}() /home/lamminhthien/Code/lamminhthien.com/app/public/index.php:0
+[30-Jul-2022 03:36:06 UTC] PHP   2. require() /home/lamminhthien/Code/lamminhthien.com/app/public/index.php:17
+[30-Jul-2022 03:36:06 UTC] PHP   3. require_once() /home/lamminhthien/Code/lamminhthien.com/app/public/wp-blog-header.php:13
+[30-Jul-2022 03:36:06 UTC] PHP   4. require_once() /home/lamminhthien/Code/lamminhthien.com/app/public/wp-load.php:50
+[30-Jul-2022 03:36:06 UTC] PHP   5. require_once() /home/lamminhthien/Code/lamminhthien.com/app/public/wp-config.php:91
+[30-Jul-2022 03:36:06 UTC] PHP   6. include() /home/lamminhthien/Code/lamminhthien.com/app/public/wp-settings.php:566
+[30-Jul-2022 03:56:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twentytwenty_unique_id() in /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/searchform.php:18
+Stack trace:
+#0 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/general-template.php(308): require()
+#1 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/404.php(24): get_search_form(Array)
+#2 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/template-loader.php(106): include('/home/lamminhth...')
+#3 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-blog-header.php(19): require_once('/home/lamminhth...')
+#4 /home/lamminhthien/Code/lamminhthien.com/app/public/index.php(17): require('/home/lamminhth...')
+#5 {main}
+  thrown in /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/searchform.php on line 18
+[30-Jul-2022 03:56:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twentytwenty_unique_id() in /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/searchform.php:18
+Stack trace:
+#0 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/general-template.php(308): require()
+#1 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/404.php(24): get_search_form(Array)
+#2 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/template-loader.php(106): include('/home/lamminhth...')
+#3 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-blog-header.php(19): require_once('/home/lamminhth...')
+#4 /home/lamminhthien/Code/lamminhthien.com/app/public/index.php(17): require('/home/lamminhth...')
+#5 {main}
+  thrown in /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/searchform.php on line 18
+[30-Jul-2022 03:56:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twentytwenty_unique_id() in /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/searchform.php:18
+Stack trace:
+#0 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/general-template.php(308): require()
+#1 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/404.php(24): get_search_form(Array)
+#2 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/template-loader.php(106): include('/home/lamminhth...')
+#3 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-blog-header.php(19): require_once('/home/lamminhth...')
+#4 /home/lamminhthien/Code/lamminhthien.com/app/public/index.php(17): require('/home/lamminhth...')
+#5 {main}
+  thrown in /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/searchform.php on line 18
+[30-Jul-2022 03:56:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twentytwenty_unique_id() in /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/searchform.php:18
+Stack trace:
+#0 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/general-template.php(308): require()
+#1 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/404.php(24): get_search_form(Array)
+#2 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/template-loader.php(106): include('/home/lamminhth...')
+#3 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-blog-header.php(19): require_once('/home/lamminhth...')
+#4 /home/lamminhthien/Code/lamminhthien.com/app/public/index.php(17): require('/home/lamminhth...')
+#5 {main}
+  thrown in /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/searchform.php on line 18
+[30-Jul-2022 03:56:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function twentytwenty_unique_id() in /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/searchform.php:18
+Stack trace:
+#0 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/general-template.php(308): require()
+#1 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/404.php(24): get_search_form(Array)
+#2 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-includes/template-loader.php(106): include('/home/lamminhth...')
+#3 /home/lamminhthien/Code/lamminhthien.com/app/public/wp-blog-header.php(19): require_once('/home/lamminhth...')
+#4 /home/lamminhthien/Code/lamminhthien.com/app/public/index.php(17): require('/home/lamminhth...')
+#5 {main}
+  thrown in /home/lamminhthien/Code/lamminhthien.com/app/public/wp-content/themes/abc-theme/searchform.php on line 18
