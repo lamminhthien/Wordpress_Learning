@@ -9,7 +9,7 @@ $args = [
   'cat' => $term->term_id,
   'paged' => get_query_var('paged') ? get_query_var('paged') : 1,
   'order' => 'DESC',
-  'posts_per_page' => get_option('posts_per_page')
+  'posts_per_page' => POST_PER_PAGE
 
 ];
 

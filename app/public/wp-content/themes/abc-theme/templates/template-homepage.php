@@ -15,7 +15,7 @@ $feauture_img_url = get_the_post_thumbnail_url();
 <div class="container">
   <div class="post-detail">
     <?php if ($feauture_img_url)
-      echo "<img src='${feauture_img_url}' alt='title'"
+      echo "<img src='${feauture_img_url}' alt='title'";
     ?>
     <div class="title"><?php the_title(); ?></div>
     <?php the_content(); ?>
