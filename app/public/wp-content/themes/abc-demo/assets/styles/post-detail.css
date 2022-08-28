@@ -1,0 +1,11 @@
+.post-section{
+  background: rgba(218, 165, 32, 0.689);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.post-section h1{
+  font-size: 28px;
+  font-weight: 700;
+}

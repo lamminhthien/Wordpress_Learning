@@ -1,0 +1,10 @@
+.footer_menu_class {
+  background-color:rgba(0, 0, 255, 0.478);
+}
+.footer_menu_class ul{
+  display: flex;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: 700;
+  gap:50px;
+}

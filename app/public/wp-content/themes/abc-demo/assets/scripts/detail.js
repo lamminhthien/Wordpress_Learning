@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmicrofrontend=self.webpackChunkmicrofrontend||[]).push([[167],{470:function(n,e,c){c(727);new class{constructor(){console.log("[Page] - Init Page Detail")}}}},function(n){n.O(0,[642,592],(function(){return e=470,n(n.s=e);var e}));n.O()}]);

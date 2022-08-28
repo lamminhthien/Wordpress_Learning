@@ -1,0 +1,97 @@
+.menu nav .active {
+  position: relative;
+}
+.menu nav .active:after {
+  --tw-bg-opacity: 1;
+  --tw-content: '';
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  bottom: 0;
+  content: var(--tw-content);
+  height: 0.25rem;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.menu-mobile {
+  --tw-bg-opacity: 1;
+  --tw-text-opacity: 1;
+  --tw-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --tw-shadow-colored: 0 1px 2px 0 var(--tw-shadow-color);
+  background-color: rgb(60 199 244 / var(--tw-bg-opacity));
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  min-height: calc(100vh - 116px);
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+}
+@media (min-width: 1024px) {
+  .menu-mobile {
+    display: none;
+  }
+}
+.menu-mobile {
+  box-shadow: 0 0 4px 2px hsla(0, 0%, 45%, 0.1);
+}
+.menu-mobile .menu-item li {
+  padding-bottom: 17px;
+  padding-top: 17px;
+}
+.menu-mobile .menu-item li:first-child {
+  padding-bottom: 17px;
+}
+.menu-mobile .search-icon {
+  padding: 12px;
+  position: absolute;
+}
+.menu-mobile .search-input {
+  --tw-bg-opacity: 1;
+  background-color: rgb(53 172 210 / var(--tw-bg-opacity));
+  border-style: none;
+  height: 42px;
+  padding-left: 40px;
+  width: 100%;
+}
+.menu-mobile .search-input::-moz-placeholder {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+.menu-mobile .search-input:-ms-input-placeholder {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+.menu-mobile .search-input::placeholder {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+}
+.menu-mobile .languages a {
+  position: relative;
+}
+.menu-mobile .languages a:after {
+  --tw-bg-opacity: 1;
+  --tw-content: '';
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+  bottom: 0;
+  content: var(--tw-content);
+  height: 0.25rem;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+.hamburger.active .icon-1 {
+  display: none;
+}
+.hamburger.active .icon-2 {
+  display: block;
+}
+.hamburger .icon-2 {
+  display: none;
+}
+body.layout-default {
+  -webkit-font-smoothing: auto;
+  -moz-osx-font-smoothing: auto;
+  scroll-behavior: smooth;
+}

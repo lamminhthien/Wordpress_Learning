@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmicrofrontend=self.webpackChunkmicrofrontend||[]).push([[592],{727:function(){new class{constructor(){console.log("[Layout] - Init Layout Default")}}}}]);

@@ -1,0 +1,34 @@
+.contact-banner {
+  background-image: url(../images/contact-banner.jpg);
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 382px;
+}
+@media (min-width: 768px) {
+  .contact-banner {
+    height: 670px;
+  }
+}
+@media (min-width: 1024px) {
+  .contact-banner {
+    height: 362px;
+  }
+}
+.contact-banner .title {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 45px;
+}
+@media (min-width: 1024px) {
+  .contact-banner .title {
+    font-size: 74px;
+    line-height: 75px;
+  }
+}
+.contact-form .input-icon {
+  padding-bottom: 4px;
+  padding-left: 20px;
+  padding-top: 1.25rem;
+  position: absolute;
+}

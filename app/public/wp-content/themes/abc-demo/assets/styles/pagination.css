@@ -1,0 +1,18 @@
+.nav-links {
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  color: white;
+}
+.nav-links .prev.page-numbers {
+  background: rgba(213, 16, 105, 0.883);
+  padding: 10px;
+  border-radius: 10px;
+}
+.nav-links .next.page-numbers {
+  background: rgba(213, 16, 105, 0.883);
+  padding: 10px;
+  border-radius: 10px;
+}

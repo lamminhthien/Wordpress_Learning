@@ -1,0 +1,33 @@
+.category-section{
+  display: flex;
+  padding: 100px;
+  background: rgba(152, 251, 152, 0.66);
+}
+.category-detail{
+  margin: auto;
+}
+.category-detail .title h3{
+  font-size: 30px;
+  align-items: center;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+}
+.category-detail .image{
+ width: 300px;
+ height: auto;
+ object-fit: contain;
+ object-position: center;
+}
+.category-detail .view-post{
+border: 1px solid rgba(255, 0, 0, 0.35);
+width: 200px;
+margin: auto;
+color: white;
+font-weight: 700;
+text-align: center;
+padding: 8px;
+border-radius: 10px;
+background: rgba(255, 0, 0, 0.708);
+}
+

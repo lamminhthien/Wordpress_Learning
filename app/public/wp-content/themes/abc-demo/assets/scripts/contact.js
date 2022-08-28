@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmicrofrontend=self.webpackChunkmicrofrontend||[]).push([[631],{387:function(n,c,o){o(727);new class{constructor(){console.log("[Page] - Init Page Contact")}}}},function(n){n.O(0,[642,592],(function(){return c=387,n(n.s=c);var c}));n.O()}]);
