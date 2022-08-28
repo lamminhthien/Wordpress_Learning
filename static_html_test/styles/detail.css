@@ -1,0 +1,373 @@
+/*!**************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./src/Partials/detail-banner/style.scss ***!
+  \**************************************************************************************************************************************************************************************************************************************************************/
+.detail-banner {
+    height: 382px;
+    background-image: url('../images/detail-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat
+}
+@media (min-width: 768px) {
+    .detail-banner {
+        height: 670px
+    }
+}
+@media (min-width: 1024px) {
+    .detail-banner {
+        height: 362px
+    }
+}
+  .detail-banner .title {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 45px
+}
+  @media (min-width: 1024px) {
+    .detail-banner .title {
+        font-size: 74px;
+        line-height: 75px
+    }
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./src/Partials/article-detail/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************************/
+.article-detail .container {
+
+    padding-top: 54px;
+
+    padding-bottom: 96px
+}
+
+@media (min-width: 768px) {
+
+    .article-detail .container {
+
+        padding-left: 55px;
+
+        padding-right: 55px;
+
+        padding-top: 64px;
+
+        padding-bottom: 69px
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .article-detail .container {
+
+        max-width: 900px;
+
+        padding-left: 0px;
+
+        padding-right: 0px;
+
+        padding-top: 76px;
+
+        padding-bottom: 100px
+    }
+}
+
+.article-detail .opening-title {
+
+    display: flex;
+
+    justify-content: center;
+
+    font-size: 16px;
+
+    line-height: 22px
+}
+
+.article-detail .detail-heading {
+
+    padding-top: 22px;
+
+    padding-bottom: 28px;
+
+    text-align: center;
+
+    font-size: 25px;
+
+    font-weight: 700;
+
+    line-height: 25px;
+
+    --tw-text-opacity: 1;
+
+    color: rgb(219 81 54 / var(--tw-text-opacity))
+}
+
+@media (min-width: 1024px) {
+
+    .article-detail .detail-heading {
+
+        padding-top: 50px;
+
+        padding-bottom: 50px;
+
+        text-align: left;
+
+        font-size: 34px;
+
+        line-height: 35px
+    }
+}
+
+.article-detail .personal-info {
+
+    text-align: center;
+
+    font-size: 16px;
+
+    line-height: 22px
+}
+
+.article-detail .author-info {
+
+    padding-top: 20px;
+
+    padding-bottom: 14px;
+
+    font-weight: 500
+}
+
+.article-detail .detail-content {
+
+    padding-top: 30px;
+
+    padding-bottom: 53px;
+
+    font-size: 16px;
+
+    font-weight: 500;
+
+    line-height: 22px
+}
+
+@media (min-width: 768px) {
+
+    .article-detail .detail-content {
+
+        padding-top: 42px
+    }
+}
+
+.article-detail .sharing-option {
+
+    padding-right: 0.625rem;
+
+    font-size: 16px;
+
+    font-weight: 700;
+
+    text-transform: uppercase;
+
+    line-height: 22px;
+
+    --tw-text-opacity: 1;
+
+    color: rgb(117 117 117 / var(--tw-text-opacity))
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./src/Partials/article-related/style.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
+.article-related .article-title h2 {
+
+    padding-top: 0.5rem;
+
+    padding-bottom: 27px;
+
+    font-size: 34px;
+
+    font-weight: 700;
+
+    line-height: 45px;
+
+    --tw-text-opacity: 1;
+
+    color: rgb(219 81 54 / var(--tw-text-opacity))
+}
+
+.article-related .article-title p {
+
+    font-size: 1rem;
+
+    line-height: 1.5rem;
+
+    font-weight: 500;
+
+    line-height: 22px
+}
+
+.article-related .article-item {
+
+    grid-column: span 12 / span 12;
+
+    display: flex;
+
+    height: 350px;
+
+    flex-direction: column;
+
+    justify-content: flex-end
+}
+
+@media (min-width: 1024px) {
+
+    .article-related .article-item {
+
+        height: 400px
+    }
+}
+  .article-related .article-item img {
+
+    position: relative;
+
+    z-index: -10
+}
+  .article-related .article-item .info {
+
+    position: absolute;
+
+    bottom: 0px;
+
+    left: 0px;
+
+    width: 100%
+}
+  .article-related .article-item p {
+
+    font-size: 1rem;
+
+    line-height: 1.5rem;
+
+    font-weight: 500;
+
+    line-height: 22px
+}
+  .article-related .article-item h2 {
+
+    font-size: 34px;
+
+    font-weight: 700;
+
+    line-height: 35px
+}
+
+@media (min-width: 1024px) {
+
+    .article-related .article-item-1 {
+
+        grid-column: span 6 / span 6
+    }
+}
+
+.article-related .article-item-2 {
+
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+
+    --tw-gradient-from: #f87171;
+
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(248 113 113 / 0));
+
+    --tw-gradient-stops: var(--tw-gradient-from), #f97316, var(--tw-gradient-to, rgb(249 115 22 / 0));
+
+    --tw-gradient-to: #fb923c
+}
+
+@media (min-width: 1024px) {
+
+    .article-related .article-item-2 {
+
+        grid-column: span 6 / span 6
+    }
+}
+
+.article-related .article-item-3 {
+
+    background-image: linear-gradient(to right, var(--tw-gradient-stops));
+
+    --tw-gradient-from: #0ea5e9;
+
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(14 165 233 / 0));
+
+    --tw-gradient-stops: var(--tw-gradient-from), #22d3ee, var(--tw-gradient-to, rgb(34 211 238 / 0));
+
+    --tw-gradient-to: #0ea5e9
+}
+
+@media (min-width: 1024px) {
+
+    .article-related .article-item-3 {
+
+        grid-column: span 4 / span 4
+    }
+}
+
+@media (min-width: 768px) {
+
+    .article-related .article-item-4 {
+
+        grid-column: span 6 / span 6
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .article-related .article-item-4 {
+
+        grid-column: span 4 / span 4
+    }
+}
+
+.article-related .view-more-articles {
+
+    display: flex;
+
+    align-items: flex-end;
+
+    -moz-column-gap: 5rem;
+
+         column-gap: 5rem;
+
+    --tw-text-opacity: 1;
+
+    color: rgb(0 0 0 / var(--tw-text-opacity))
+}
+
+@media (min-width: 768px) {
+
+    .article-related .view-more-articles {
+
+        grid-column: span 6 / span 6
+    }
+}
+
+@media (min-width: 1024px) {
+
+    .article-related .view-more-articles {
+
+        grid-column: span 4 / span 4;
+
+        justify-content: flex-end
+    }
+}
+  .article-related .view-more-articles h2 {
+
+    width: 207px;
+
+    font-size: 35px;
+
+    font-weight: 800;
+
+    line-height: 2.5rem
+}
+
+/*!****************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[2].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[2].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[2].use[3]!./src/pages/detail/style.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************/
+
